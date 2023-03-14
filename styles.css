@@ -10,11 +10,21 @@ header {
   background: rgba;
   color: rgba(255, 255, 255, 0.425);
 } */
+.wrapper {
+  width: 90%; /* Establecemos que el ancho sera del 90% */
+  max-width: 1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
+  margin: auto; /* Centramos los elementos */
+  overflow: hidden; /* Eliminamos errores de float */
+}
+
+.title1 {
+  background-color: #ffffff;
+}
 
 .img {
-  height: 60px;
-  width: 80px;
-  align-content: right;
+  height: 35%;
+  width: 30%;
+  align-content: center;
 }
 /* nav {
   display: flex;
@@ -82,13 +92,6 @@ header {
   overflow: hidden; /* Eliminamos errores de float */
   background: #000000;
   margin-bottom: 20px;
-}
-
-.wrapper {
-  width: 90%; /* Establecemos que el ancho sera del 90% */
-  max-width: 1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
-  margin: auto; /* Centramos los elementos */
-  overflow: hidden; /* Eliminamos errores de float */
 }
 
 header .logo {

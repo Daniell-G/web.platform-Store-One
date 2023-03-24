@@ -18,36 +18,17 @@ html {
   margin-right:110px;
 }
 
-header {
-  color: #ffffff;
-} 
 .wrapper {
   width: 100%; /* Establecemos que el ancho sera del 90% */
   max-width: 1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
   margin: auto; /* Centramos los elementos */
   overflow: visible; /* Eliminamos errores de float */
 }
-
-.title1 {
-  background-color: #ffffff;
-}
-
 .img {
   height: 35%;
   width: 30%;
   align-content: center;
 }
-/* nav {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  padding: 0.5rem;
-  gap: 0.5rem;
-  border-bottom: solid 5px rgba(170, 170, 170, 0.534);
-  background-color: #eee; */
-/* } */
-
 nav a {
   display: inline-block;
   min-width: 9rem;
@@ -84,7 +65,7 @@ button {
 footer {
   align-self: flex-end;
   background-color: #000000;
-  line-height: 6;
+  line-height: 8;
   text-align: center;
   width: 100%;
   color: #ffffff;
@@ -122,5 +103,5 @@ header nav a:hover {
 .tituloa {
   margin-left: 60px;
   color: #ffffff;
-  font-size: 80px;
+  font-size: 90px;
 }

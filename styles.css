@@ -3,13 +3,24 @@ body {
   margin: 15;
   font-family: system-ui, sans-serif;
   color: black;
-  background-color: rgba(15, 14, 14, 0.233);
+  background-color: #ffffff;
 }
-/* 
+
+html {
+  padding: 10px 50px 20px;
+  background-color: #000000
+}
+
+.diva {
+  background-color: beige;
+  padding: 10px 50px 20px;
+  margin-left: 110px;
+  margin-right:110px;
+}
+
 header {
-  background: rgba;
-  color: rgba(255, 255, 255, 0.425);
-} */
+  color: #ffffff;
+} 
 .wrapper {
   width: 100%; /* Establecemos que el ancho sera del 90% */
   max-width: 1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
@@ -51,13 +62,6 @@ nav a[aria-current='page'] {
   border-radius: 50px;
 }
 
-h1 {
-  font-weight: bold;
-  font-size: 1.5rem;
-}
-h2 {
-  font-family: Lato;
-}
 form {
   width: 200px;
   margin-left: 50px;
@@ -101,9 +105,9 @@ header nav a {
   display: inline-block;
   color: rgb(255, 255, 255);
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 12px 18px;
   line-height: normal;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
   -webkit-transition: all 500ms ease;
   -o-transition: all 500ms ease;
@@ -113,36 +117,4 @@ header nav a {
 header nav a:hover {
   background: #064cc4;
   border-radius: 50px;
-}
-.header2 {
-  position: fixed;
-  height: 100px;
-}
-
-.header2 .logo {
-  line-height: 100px;
-  font-size: 30px;
-}
-
-.header2 nav {
-  line-height: 100px;
-}
-/* Ya para finalizar con CSS vamos a agregar la parte que nos permite adaptar el header a un dispositivo móvil. */
-
-@media screen and (max-width: 950px) {
-  header .logo,
-  header nav {
-    width: 100%;
-    text-align: center; /*Centramos el menu y el logotipo*/
-    line-height: 100px;
-  }
-
-  .header2 {
-    height: auto;
-  }
-
-  .header2 .logo,
-  .header2 nav {
-    line-height: 50px;
-  }
 }

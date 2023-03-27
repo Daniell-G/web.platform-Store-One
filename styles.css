@@ -8,14 +8,14 @@ body {
 
 html {
   padding: 10px 50px 20px;
-  background-color: #000000
+  background-color: #000000;
 }
 
 .diva {
   background-color: beige;
   padding: 10px 50px 20px;
   margin-left: 110px;
-  margin-right:110px;
+  margin-right: 110px;
 }
 
 .wrapper {
@@ -23,6 +23,7 @@ html {
   max-width: 1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
   margin: auto; /* Centramos los elementos */
   overflow: visible; /* Eliminamos errores de float */
+  text-align: center;
 }
 nav a {
   display: inline-block;

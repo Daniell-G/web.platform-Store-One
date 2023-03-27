@@ -24,11 +24,6 @@ html {
   margin: auto; /* Centramos los elementos */
   overflow: visible; /* Eliminamos errores de float */
 }
-.img {
-  height: 35%;
-  width: 30%;
-  align-content: center;
-}
 nav a {
   display: inline-block;
   min-width: 9rem;
